@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('example') {
             steps {
-                echo "Hello World from Production Branch"
+                echo "Hello World from Production Branch."
                 script {
                     bat 'set | sort'
                 }
