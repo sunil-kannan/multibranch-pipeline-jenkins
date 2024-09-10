@@ -4,9 +4,8 @@ pipeline {
     stages {
         stage('example') {
             steps {
-                echo "Hello World"
+                echo "Hello World from Production Branch"
                 script {
-                    echo "Attempting to call helloWorld()"
                     bat 'set | sort'
                 }
             }
